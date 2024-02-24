@@ -12,7 +12,7 @@ if [[ "$UserResponse" = 's' ]]; then
    read -p "Usuario: " -e -i freehttp user
    read -p "Password: " -e -i 12345 pass
    preConfig()
-else 
+else
    user="freehttp"
    pass="12345"
    preConfig()
